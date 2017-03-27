@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animal.cs" />
+    <Compile Include="AnimalSize.cs" />
+    <Compile Include="AnimalType.cs" />
+    <Compile Include="Dog.cs" />
+    <Compile Include="GermanShepard.cs" />
+    <Compile Include="GreatDane.cs" />
+    <Compile Include="Poodle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="MyFirstDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
